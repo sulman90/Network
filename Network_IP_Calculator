@@ -1,0 +1,39 @@
+
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	int x1=0;
+	int x2=0;
+	int x3=0;
+	int x4=0; 
+	int y1=0;
+	int y2=0;
+	int y3=0;
+	int y4=0; 
+	
+	cout<<"please inter IP Address"<<endl;
+	cin>>x1;
+	cin>>x2;
+	cin>>x3;
+	cin>>x4;
+	cout<<"please inter Subnet Mask"<<endl;
+	cin>>y1;
+	cin>>y2;
+	cin>>y3;
+	cin>>y4;
+	
+	int result1= x1 & y1;
+	int result2= x2 & y2;
+	int result3= x3 & y3;
+	int result4= x4 & y4;
+	cout<<"your Network IP IS "<<result1<<"."<<result2<<"."<<result3<<"."<<result4<<endl;
+	
+	
+
+	
+	system("PAUSE");
+	return 0;
+}
